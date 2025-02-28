@@ -18,7 +18,7 @@ RU: Первая лабораторная работа
 Компьютер с установленной Android Studio.  
 Логотип Android android_logo.png для отображения в приложении  
 https://github.com/ISTU-PO-ANDROID/LabsData/blob/65c3c73c33fe4708c90fb0d4a4f5bd651820fb57/android_logo.png  
-Пример того, как может выглядеть ваше приложение:
+Пример того, как может выглядеть ваше приложение:  
 ![изображение](https://github.com/user-attachments/assets/ab9aed8c-472a-4f8e-88b8-264515bf1850)  
 
 
