@@ -1,6 +1,7 @@
 package com.example.businesscard
 
 import android.os.Bundle
+import android.view.WindowInsets
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -15,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Phone
@@ -59,7 +61,8 @@ fun BusinessCardContent() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFD2E8D4)),
+            .background(Color(0xFFD2E8D4))
+            .padding(bottom = 64.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -91,8 +94,9 @@ fun BusinessCardContent() {
 
     Column (
         modifier = Modifier
+            .fillMaxWidth()
             .padding(16.dp)
-            .fillMaxWidth(),
+            .padding(bottom = 64.dp),
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
