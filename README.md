@@ -26,4 +26,4 @@ https://github.com/ISTU-PO-ANDROID/LabsData/blob/65c3c73c33fe4708c90fb0d4a4f5bd6
 
 
 Что получилось:  
-![изображение](https://github.com/user-attachments/assets/ee926a2d-ef38-46a7-a312-6d4f8cca6662)  
+![изображение](https://github.com/user-attachments/assets/6524a716-b20d-47d0-836a-86d0f0232254)
